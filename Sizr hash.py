@@ -9,7 +9,7 @@ for znak in sifrovac:
     if (i > ord("z")):
         i = i - 26
     znak = chr(i)
-    sifrovac = sifrovac + znak
+    sprava = sprava + znak
 
-print("Zašifrovaná zpráva:", zprava)
+print("Zašifrovaná správa:", sprava)
 input()
